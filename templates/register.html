@@ -1,0 +1,36 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Link to Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white w-full max-w-sm p-6 rounded-lg shadow-md">
+      <form method="POST" action="/register">
+        <div class="flex items-center justify-center mb-6">
+          <img src="/static/logo.png" alt="Logo" class="w-30">
+        </div>
+        <h1 class="text-center text-2xl font-bold mb-6">Criar Conta</h1>
+        <div class="border rounded-lg py-2 px-4 mb-4">
+          <label class="text-center block text-gray-700 text-sm font-bold mb-2" for="username">Nome de usuário:</label>
+          <input type="text" id="username" name="username" required class="w-full">
+        </div>
+        <div class="border rounded-lg py-2 px-4 mb-4">
+          <label class="text-center block text-gray-700 text-sm font-bold mb-2" for="password">Senha:</label>
+          <input type="password" id="password" name="password" required class="w-full">
+        </div>
+        <div>
+          <input type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg w-full" value="Criar Conta">
+        </div>
+      </form>
+    </div>
+  </body>
+
+  </html>
+
+

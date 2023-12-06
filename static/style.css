@@ -1,0 +1,90 @@
+
+
+#chat-container {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#chat-input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+#send-btn {
+    width: 60px;
+    border: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EDEFF3; /* The background color from your screenshot */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  margin-bottom: 24px;
+}
+
+.logo {
+  width: 150px; /* Adjust as per your logo's aspect ratio */
+}
+
+.email-form {
+  width: 100%;
+}
+
+.email-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 16px;
+  border: 1px solid #D3D3D3; /* Light grey border */
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+.next-button {
+  width: 100%;
+  background-color: #007BFF; /* Blue background for the button */
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.next-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
